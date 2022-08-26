@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        #parent{
+            border: 1px solid black;
+        }
+
+        .position{
+            width: 100px;
+            height: 100px;
+        }
+
+        #static{
+            background-color: lightpink;
+            /* static => 위치 속성이 비활성화  */
+            top : 10px;
+            left: 10px;
+
+        }
+        #relative{
+            background-color: lightyellow;
+            /* relative => 위치 속성 활성화 
+            기준 : 본인이 원래 있었던 위치*/
+            position : relative;
+            top:10px;
+            left: 10px;
+        }
+
+        #parent{
+            position: relative;
+        }
+
+        #absolute{
+            background-color: lightgreen;
+            position : absolute;
+            /* absolute => 위치 속성 활성화
+            기준 : static이 아닌 부모, 부모가 없다면 body태그를 기준으로  */
+            top : 10px;
+            left: 10px;
+        }
+        
+        #fixed{
+            position: fixed;
+            background-color: lightblue;
+            /* fixed => 위치 속성 활성화
+            기준 : body태그, 스크롤 무시 */
+            right: 0px;
+            bottom: 50px;
+
+        }
+
+    </style>
+    
+    
+    
+    
+    
+    <title>Document</title>
+
+</head>
+<body>
+    여기는 body태그 입니다 여기는 body태그 입니다 여기는 body태그 입니다
+    
+    <div id="parent">
+        여기는 parent태그 입니다 여기는 parent태그 입니다 여기는 parent태그 입니다
+        <div id = "static" class = "position">static</div>
+        <div id = "relative" class = "position">relative</div>
+        <div id = "absolute" class = "position">absolute</div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div class="position"></div>
+        <div id = "fixed" class = "position">fixed</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: black;
+            border:1px solid white;
+            height : 10vh;
+            display: flex;
+            
+        }
+
+          
+        .item-box{
+            
+            
+            
+            color: white;
+            flex-grow: 1;
+            
+            
+            
+        }
+
+        #first-box{
+           
+            font-size :1.5em;
+          
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 20%;
+            height: 100%;
+
+
+        }
+        
+        #sec-box{
+          
+            font-size: 1em;
+            align-items: center;
+            justify-content: left;
+            display: flex;
+            width: 60%;
+            height: 100%;
+        }
+
+        #sec-box>a{
+            margin: 30px;
+           
+        }
+
+        #sec-box>a:hover{
+            color: lightseagreen;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        #third-box{
+            font-size: 1em;
+            align-items: center;
+            justify-content: right;
+            display: flex;
+
+        }
+
+        #third-box>a{
+            margin: 20px;
+           
+        }
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <div class = "container">
+        <div class = "item-box" id = "first-box">
+           <img src = ./img/담로고.png height="50px">
+           DWG KIA
+        </div>
+        <div class = "item-box" id = "sec-box">
+            <a href="https://dwgkia.gg/about">About</a>
+  
+            <a href="https://damwongameacademy.com/">Academy</a>
+            <a href="https://dwgkia.gg/vod">VOD</a>
+            <a href="https://dwgkia.gg/schedule">Schedule</a>
+            
+            <a href="https://dwgkia.gg/board/news">News</a>
+            <a href="https://shop.dwgkia.gg/">SHOP</a>
+        </div>
+        <div class = "item-box" id = "third-box">
+            <a href="">Login</a>
+            <a href="http://127.0.0.1:5500/HTML/ex10%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%ED%8F%BC%EC%8B%A4%EC%8A%B5.html">Join</a>
+        </div>
+        
+    </div>
+</body>
+</html>

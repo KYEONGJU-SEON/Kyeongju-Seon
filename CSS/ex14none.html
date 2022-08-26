@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .answer{
+        display: none
+    }
+
+    .question:hover+.answer{
+        display: inline;
+    }
+
+    .address{
+        display: none;
+    }
+
+
+    .naver:active+.address{
+        display: inline;
+    }
+
+    .naver:active+.answer{
+        display: inline;
+    }
+   
+
+
+</style>
+
+
+</head>
+<body>
+    <span class="question">Q.오늘 점심 뭐드시나요?</span>
+    <span class = "answer">A. 국밥 </span>
+<br>
+<br>
+
+    <span class = "naver">네이버</span>
+    <span class ="address">www.naver.com</span>
+    <br>
+    <!-- 
+        answer에 이미 none담겼으니까 새로안만ㄴ들어도 됨
+        <span class = "answer">www.naver.com</span> -->
+</body>
+</html>
